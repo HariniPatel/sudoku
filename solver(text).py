@@ -3,6 +3,7 @@ def solve(bo):
     Solves a sudoku board using backtracking
     :param bo: 2d list of ints
     :return: solution
+    CHECK CHECKOUT
     """
     find = find_empty(bo)
     if find:
